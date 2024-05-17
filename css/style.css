@@ -6,10 +6,13 @@ body {
 
 header {
   font-weight: 700;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
 }
 
 header .container {
-  max-width: 1440px;
+  max-width: 1080px;
   width: 90%;
   margin: 0 auto;
 }
@@ -22,7 +25,7 @@ header .row {
   padding: 1rem;
 }
 
-header h1 {
+.logo {
   font-size: 1.5rem;
 }
 
@@ -34,4 +37,15 @@ header ul li {
   margin-left: 1.875rem;
   font-size: 0.875rem;
   letter-spacing: 1px;
+}
+
+.section-1 {
+  background-image: url(/images/image_1.jpg);
+  background-position: center bottom;
+  background-size: cover;
+  height: 100vh;
+}
+
+main .container {
+  text-align: center;
 }
