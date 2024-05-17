@@ -1,0 +1,37 @@
+body {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  color: #ffffff;
+  background-color: #16161a;
+}
+
+header {
+  font-weight: 700;
+}
+
+header .container {
+  max-width: 1440px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+header .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+header h1 {
+  font-size: 1.5rem;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  margin-left: 1.875rem;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+}
