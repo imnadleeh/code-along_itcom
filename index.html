@@ -1,4 +1,5 @@
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,41 +15,153 @@
   <!-- Google Fonts 読み込み -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet">
 
 </head>
 
 <body>
-
   <header>
     <div class="container">
       <div class="row">
         <p class="logo">ITcom</p>
-        <nav class="navbar">
-          <ul>
-            <li><a href="#about"></a>About</li>
-            <li><a href="#news"></a>News</li>
-            <li><a href="#contact"></a>Contact</li>
-          </ul>
-        </nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </div>
     </div>
   </header>
 
   <main>
     <section class="section-1">
-    <div class="container">
-      <p class="heading">Tech Solutions</p>
-      <h1>未来をつくる<br>テクノロジーソリューション</h1>
-      <p class="text">Shaping the Future with Innovative Technology Solutions</p>
-      <a class="button" ref="#contact">Contact</a>
-    </div>
-    <div class="filter"></div>
-  </section>
+      <div class="container">
+        <p class="heading">Tech Solutions</p>
+        <h1>未来をつくる<br>テクノロジーソリューション</h1>
+        <p class="text">Shaping the Future with Innovative Technology Solutions</p>
+        <a class="button" href="#contact">Contact</a>
+      </div>
+      <div class="filter"></div>
+    </section>
+
+    <section class="section-2" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="card">
+            <img src="icons/icon_1.svg" alt="laptop">
+            <h2>カスタムソフトウェア開発</h2>
+            <hr>
+            <p class="text">私たちはビジネスのニーズに合わせて
+              カスタマイズされたソフトウェアソリューションを提供します。
+              効率的で使いやすいアプリケーションを開発し、
+              ビジネスプロセスを最適化します。
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="icons/icon_2.svg" alt="cloud">
+            <h2>クラウドソリューション</h2>
+            <hr>
+            <p class="text">クラウドテクノロジーを活用し、
+              スケーラブルで柔軟なソリューションを提供します。
+              ビジネスデータの安全な保管とアクセスを確保します。
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="icons/icon_3.svg" alt="analyse">
+            <h2>データ分析</h2>
+            <hr>
+            <p class="text">当社のデータ分析サービスは情報を把握し、
+              トレンドを特定し、ビジネスの成長を促進するためにデータの力を
+              活用するお手伝いをするために設計されています。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-3">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3>テクノロジーでビジネスを革新しよう</h3>
+            <hr>
+            <p class="text">ITcomは革新的なテクノロジーソリューションを提供し、
+              クライアントのビジネスを強化します。<br>
+              <br>
+              私たちの専門家のチームは、ビジョンを実現し、
+              競争力を高めるためのパートナーとしてお手伝いします。
+            </p>
+          </div>
+          <div class="col">
+            <img src="images/image_2.jpg" alt="meeting">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <h3>テクノロジーへの情熱と革新の原動力</h3>
+            <hr>
+            <p class="text">ITcomは単なるテクノロジーの提供者ではありません。<br>
+              私たちは情熱と創造性をもってテクノロジーを活用し、
+              革新的なソリューションを提供します。<br>
+              <br>
+              私たちの専門家たちは、お客様のビジョンを共有し、
+              ビジネスにテクノロジーの力を結集させます。
+            </p>
+          </div>
+          <div class="col">
+            <img src="images/image_3.jpg" alt="macbook">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-4" id="news">
+      <div class="container">
+        <h4>News</h4>
+        <hr>
+        <ul>
+          <li>
+            <p class="date">2024.12.30</p>
+            <p>新製品の発表をしました</p>
+          </li>
+          <li>
+            <p class="date">2024.12.30</p>
+            <p>ウェビナーの開催をしました</p>
+          </li>
+          <li>
+            <p class="date">2024.12.30</p>
+            <p>クラウドソリューションの新機能を追加しました</p>
+          </li>
+          <li>
+            <p class="date">2024.12.30</p>
+            <p>ホームページをリニューアルしました</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section-5" id="contact">
+      <div class="container">
+        <h5>お問い合わせ</h5>
+        <hr>
+        <form action="#">
+          <label for="name">お名前</label>
+          <input type="text" name="name" id="name" required>
+          <label for="email">メールアドレス</label>
+          <input type="email" name="email" id="email" required>
+          <label for="message">お問い合わせ内容</label>
+          <textarea name="message" id="message" rows="6"></textarea>
+          <input type="submit" value="送信">
+        </form>
+      </div>
+    </section>
   </main>
-
   <footer>© ITcom Inc.</footer>
-
 </body>
 
 </html>
