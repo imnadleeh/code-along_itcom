@@ -46,8 +46,6 @@ header ul li {
   height: 100vh;
   display: flex;
   align-items: center;
-  position: relative;
-  z-index: 0;
 }
 
 .section-1 .filter {
