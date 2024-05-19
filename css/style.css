@@ -8,7 +8,7 @@ header {
   font-weight: 700;
   position: absolute;
   width: 100%;
-  /* z-index: 3; */
+  z-index: 3;
 }
 
 .container {
