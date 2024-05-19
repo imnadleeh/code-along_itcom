@@ -40,7 +40,7 @@ header ul li {
 }
 
 .section-1 {
-  background-image: url(/images/image_1.jpg);
+  background-image: url(../images/image_1.jpg);
   background-position: center bottom;
   background-size: cover;
   height: 100vh;
